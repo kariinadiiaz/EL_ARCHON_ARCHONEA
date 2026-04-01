@@ -22,7 +22,7 @@ en tiempo real cuando dos piezas se encuentran en la misma casilla.
 | Pieza | Rol | Características |
 |-------|-----|----------------|
 | Delegado | Líder | Lanza conjuros. Lento pero poderoso |
-| Empollón | Atacante a distancia | Lanza libros/apuntes. Débil físicamente |
+| Todo10 | Atacante a distancia | Lanza libros/apuntes. Débil físicamente |
 | Deportista | Atacante rápido | Muy veloz pero poca vida. Cuerpo a cuerpo |
 | Nocturno | Tanque | Estudia de noche. Resistente. Ataque medio |
 | Copión | Especial | Habilidad única: copia el ataque del rival |
