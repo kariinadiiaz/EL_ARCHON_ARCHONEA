@@ -23,9 +23,9 @@ en tiempo real cuando dos piezas se encuentran en la misma casilla.
 |-------|-----|----------------|
 | Delegado | Líder | Lanza conjuros. Lento pero poderoso |
 | Todo10 | Atacante a distancia | Lanza libros/apuntes. Débil físicamente |
-| Deportista | Atacante rápido | Muy veloz pero poca vida. Cuerpo a cuerpo |
+| Veterano | Atacante rápido | Lleva más años en la uni que los profes. Muy resistente |
 | Nocturno | Tanque | Estudia de noche. Resistente. Ataque medio |
-| Copión | Especial | Habilidad única: copia el ataque del rival |
+| Mago | Especial | Nadie sabe cómo pero siempre aprueba. Se teletransporta |
 
 ### 🔴 Bando AUTOMÁTICA - PROFESORES (Oscuridad)
 
@@ -35,7 +35,7 @@ en tiempo real cuando dos piezas se encuentran en la misma casilla.
 | MH | Tanque | Muy lento pero resistentísimo. El más duro |
 | Oscar C | Atacante rápido | Veloz y débil. Ataque básico |
 | Hector M | Atacante a distancia | Lanza papers científicos |
-| Imanol | Expulsor | El que te echa del aula. Muy rápido y molesto |
+| Imanol | Expulsor | El que te echa de clase. Muy rápido y audaz |
 
 ---
 
