@@ -5,7 +5,7 @@
 #include "Pieza.h"
 
 // Todo10: el alumno que saca 10 facil del EE309
-// ataca a distancia lanzando apuntes y aprobados con nota , es débil físicamente pero muy preciso desde lejos
+// ataca a distancia lanzando apuntes y matriculas de honor , es débil físicamente pero muy preciso desde lejos
 class Todo10 : public Pieza {
 private:
     int alcance;  // hasta cuántas casillas puede atacar a distancia, como metros puede correr sin cansarse
