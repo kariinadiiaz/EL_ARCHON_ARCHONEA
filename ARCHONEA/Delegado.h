@@ -1,11 +1,10 @@
 #pragma once
 //Pido perdon necesito mis comentarios para saber que he hecho si no me pierdo y no me encuentro
-#pragma once
 #include <windows.h>
 #include <GL/gl.h>
 #include "Pieza.h"
-// Delegado: es el lider de los alumnos del EE309(voto por llamarle JULIAN)
-// puede lanzar conjuros y es bastante resistente
+// Delegado: es el lider de los alumnos del EE309
+// puede lanzar conjuros y es bastante resistente aguanta charlas de los profes y de los alumnos 
 class Delegado : public Pieza {
 private:
     int conjuros;  // conjuros que le quedan, empieza con 7
