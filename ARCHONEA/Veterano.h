@@ -1,12 +1,11 @@
 #pragma once
 //Pido perdon necesito mis comentarios para saber que he hecho si no me pierdo
-#pragma once
 #include <windows.h>
 #include <GL/gl.h>
 #include "Pieza.h"
 
 //Veterano: lleva mas años en la uni que algunos profes
-//esta mas en los clubs por eso repite curso pero conoce el campus mejor que nadie es muy resistente porque ha sobrevivido a todo
+//vive la vida por eso repite curso pero conoce el campus mejor que nadie es muy resistente porque ha sobrevivido a todo
 class Veterano : public Pieza {
 private:
     int aniosEnLaUni;  // cuantos años lleva en la carrera
