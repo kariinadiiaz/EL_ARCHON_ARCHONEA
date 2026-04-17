@@ -1,9 +1,10 @@
 #pragma once
 //Pido perdon necesito mis comentarios para saber que he hecho si no me pierdo y no me encuentro
 #pragma once
+#include <windows.h>
+#include <GL/gl.h>
 #include "Pieza.h"
-
-// Delegado: es el lider de los alumnos del EE309
+// Delegado: es el lider de los alumnos del EE309(voto por llamarle JULIAN)
 // puede lanzar conjuros y es bastante resistente
 class Delegado : public Pieza {
 private:

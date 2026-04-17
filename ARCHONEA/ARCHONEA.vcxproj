@@ -133,6 +133,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ARCHONEA.cpp" />
+    <ClCompile Include="Tablero.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Delegado.h" />
+    <ClInclude Include="Mago.h" />
+    <ClInclude Include="MH.h" />
+    <ClInclude Include="Nocturno.h" />
+    <ClInclude Include="Pieza.h" />
+    <ClInclude Include="Platero.h" />
+    <ClInclude Include="Tablero.h" />
+    <ClInclude Include="Todo10.h" />
+    <ClInclude Include="Veterano.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
