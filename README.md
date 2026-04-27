@@ -19,24 +19,29 @@ en tiempo real cuando dos piezas se encuentran en la misma casilla.
 
 ### 🟡 Bando EE309 - ALUMNOS (Luz)
 
-| Pieza | Rol | Características |
-|-------|-----|----------------|
-| Delegado | Líder | Lanza conjuros. Lento pero poderoso |
-| Todo10 | Atacante a distancia | Lanza libros/apuntes. Débil físicamente |
-| Veterano | Atacante rápido | Lleva más años en la uni que los profes. Muy resistente |
-| Nocturno | Tanque | Estudia de noche. Resistente. Ataque medio |
-| Mago | Especial | Nadie sabe cómo pero siempre aprueba. Se teletransporta |
+| Pieza | Movimiento | Habilidad especial | Ataque | Vida | Velocidad | Cantidad |
+|-------|-----------|-------------------|--------|------|-----------|---------|
+| Delegado | Teletransporte | Lanza conjuros | Largo alcance - 50 | 250 | Lento | 1 |
+| Todo10 | Volador | Copia las habilidades del profe en combate | En zona - 30/s | 250 | Medio | 1 |
+| Mago | Volador | Sobrevive el primer golpe mortal, hace milagros | Largo alcance - 30 | 200 | Rápido | 1 |
+| Veterano | Terrestre | Lo que no le mata le hace más fuerte, su ataque sube al ganar batallas | Cuerpo a cuerpo - 30 | 300 | Lento | 2 |
+| Nocturno | Terrestre | Pico de adrenalina: puede duplicar su velocidad una vez por batalla | Media distancia - 20 | 250 | Medio | 2 |
+| Ocupado | Volador | Uno de cada 5 ataques es más fuerte, sorprende con conocimiento del exterior | Media distancia - 30 | 200 | Medio | 2 |
+| Ausente | Terrestre | Cuando su vida baja del 50% su ataque se duplica | Cuerpo a cuerpo - 30 | 150 | Rápido | 2 |
+| Humilde | Terrestre | Al ganar una batalla puede transformarse en uno de sus compañeros | Cuerpo a cuerpo - 20 | 100 | Medio | 7 |
 
 ### 🔴 Bando AUTOMÁTICA - PROFESORES (Oscuridad)
 
-| Pieza | Rol | Características |
-|-------|-----|----------------|
-| Platero | Líder | Lanza conjuros. Equivalente al Delegado |
-| MH | Tanque | Muy lento pero resistentísimo. El más duro |
-| Oscar C | Atacante rápido | Veloz y débil. Ataque básico |
-| Hector M | Atacante a distancia | Lanza papers científicos |
-| Imanol | Expulsor | El que te echa de clase. Muy rápido y audaz |
-
+| Pieza | Movimiento | Habilidad especial | Ataque | Vida | Velocidad | Cantidad |
+|-------|-----------|-------------------|--------|------|-----------|---------|
+| Miguel Hernando | Teletransporte | Lanza conjuros | Largo alcance - 50 | 250 | Lento | 1 |
+| Platero | Volador | Su zona de daño crece poco a poco sin detenerse | En zona - 30/s | 250 | Medio | 1 |
+| Basil | Volador | Carga ataques muy potentes pero si falla se hace daño a sí mismo | Largo alcance - 30 | 200 | Rápido | 1 |
+| Héctor Montes | Terrestre | Recupera 1 punto de vida por segundo en batalla | Cuerpo a cuerpo - 30 | 300 | Lento | 2 |
+| Óscar C | Terrestre | Su ataque, vida y velocidad aumentan con cada batalla ganada | Medio alcance - 20 | 250 | Medio | 2 |
+| San Segundo | Volador | Puede dividirse en 2 una vez por partida | Media distancia - 30 | 200 | Medio | 2 |
+| Giuseppe | Terrestre | En sus combates no están permitidas las habilidades especiales | Cuerpo a cuerpo - 30 | 150 | Rápido | 2 |
+| Imanol | Terrestre | Alguno de sus ataques puede paralizar al rival unos segundos | Cuerpo a cuerpo - 20 | 100 | Medio | 7 |
 ---
 
 ## 🏆 Condiciones de victoria
