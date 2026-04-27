@@ -18,7 +18,7 @@ public:
     }
 
     // lo dibujamos como un cuadrado rojo oscuro, color del bando profes
-    void dibujar(float x, float y) override {
+    void dibujar(float x, float y) {
         glColor3f(0.7f, 0.0f, 0.0f);  // rojo oscuro = autoridad maxima
         glBegin(GL_QUADS);
         glVertex2f(x + 5, y + 5);
@@ -29,7 +29,7 @@ public:
     }
 
     // se mueve una casilla en cualquier direccion como el Delegado
-    bool puedeMoverseA(int nuevaFila, int nuevaCol) override {
+    bool puedeMoverseA(int nuevaFila, int nuevaCol) {
         int difFila = abs(nuevaFila - fila);
         int difCol = abs(nuevaCol - columna);
         return difFila <= 1 && difCol <= 1;
@@ -46,5 +46,5 @@ public:
 
     int getConjuros() { return conjuros; }
 
-    std::string getTipo() override { return "Platero"; }
+    std::string getTipo() { return "Platero"; }
 };

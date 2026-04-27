@@ -18,7 +18,7 @@ public:
     }
 
     // color gris oscuro de tension , como el ambiente de sus examenes
-    void dibujar(float x, float y) override {
+    void dibujar(float x, float y) {
         glColor3f(0.3f, 0.3f, 0.3f);
         glBegin(GL_QUADS);
         glVertex2f(x + 5, y + 5);
@@ -29,7 +29,7 @@ public:
     }
 
     // se mueve solo una casilla, es muy lento pero nadie lo para
-    bool puedeMoverseA(int nuevaFila, int nuevaCol) override {
+    bool puedeMoverseA(int nuevaFila, int nuevaCol) {
         int difFila = abs(nuevaFila - fila);
         int difCol = abs(nuevaCol - columna);
         return difFila <= 1 && difCol <= 1;
