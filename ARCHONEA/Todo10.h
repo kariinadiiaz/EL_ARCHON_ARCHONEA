@@ -1,15 +1,14 @@
 #pragma once
 //Pido perdon necesito mis comentarios para saber que he hecho si no me pierdo
-#pragma once
 #include <windows.h>
 #include <GL/gl.h>
 #include "Pieza.h"
 
-// Todo10: el alumno que saca 10 facil del EE309(Voto llamrlo DAVID)
-// ataca a distancia lanzando apuntes y libros , es débil físicamente pero muy preciso desde lejos
+// Todo10: el alumno que saca 10 facil del EE309
+// ataca a distancia lanzando apuntes y matriculas de honor , es débil físicamente pero muy preciso desde lejos
 class Todo10 : public Pieza {
 private:
-    int alcance;  // hasta cuántas casillas puede atacar a distancia
+    int alcance;  // hasta cuántas casillas puede atacar a distancia, como metros puede correr sin cansarse
 
 public:
     // poca vida pero buen ataque a distancia
