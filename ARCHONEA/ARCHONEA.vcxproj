@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\dandi\ARCHON_PROYECTO\ARCHONEA\lib\ETSIDI;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\dandi\ARCHON_PROYECTO\ARCHONEA\lib\ETSIDI;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)lib\ETSIDI;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)lib\ETSIDI;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -138,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="Delegado.h" />
     <ClInclude Include="HectorMontes.h" />
+    <ClInclude Include="Imanol.h" />
     <ClInclude Include="Mago.h" />
     <ClInclude Include="MH.h" />
     <ClInclude Include="Nocturno.h" />
